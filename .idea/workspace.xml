@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="added tests van opdracht 3a">
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_3B/Cirkel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_3B/Main.java" afterDir="false" />
+    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="Added Practicum_3B">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Werkboek/les3/opdracht2/BelastingTarieven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Werkboek/les3/opdracht2/TariefFabriek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ZwembadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Werkboek/les3/opdracht1/ZwembadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Repos/V1OOP_V2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Repos/V1OOP_V2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Practica.Practicum_2B" />
@@ -64,13 +67,39 @@
       <recent name="Practica.Practicum_2B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practica.Practicum_3B.Main">
+  <component name="RunManager" selected="Application.TariefFabriek">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Werkboek.les3.opdracht2.Main" />
+      <module name="V1OOP_V2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Werkboek.les3.opdracht2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practica.Practicum_3B.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica.Practicum_3B.Main" />
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Practica.Practicum_3B.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TariefFabriek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Werkboek.les3.opdracht2.TariefFabriek" />
+      <module name="V1OOP_V2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Werkboek.les3.opdracht2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,54 +122,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VoetbalclubTest.setNaam_AlsNaamIsEmptyString_NaamIsFC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZwembadTest.inhoud_standaardZwembad_berekendJuisteInhoud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practica.Practicum_2B.*" />
+          <option name="PATTERN" value="Werkboek.les3.opdracht1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Practica.Practicum_2B" />
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_2B.VoetbalclubTest" />
-      <option name="METHOD_NAME" value="setNaam_AlsNaamIsEmptyString_NaamIsFC" />
+      <option name="PACKAGE_NAME" value="Werkboek.les3.opdracht1" />
+      <option name="MAIN_CLASS_NAME" value="Werkboek.les3.opdracht1.ZwembadTest" />
+      <option name="METHOD_NAME" value="inhoud_standaardZwembad_berekendJuisteInhoud" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VoetbalclubTest.verwerkResultaat_VerwerkWinst_IsZichtbaarInStringRepresentatie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="V1OOP_V2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practica.Practicum_2B.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Practica.Practicum_2B" />
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_2B.VoetbalclubTest" />
-      <option name="METHOD_NAME" value="verwerkResultaat_VerwerkWinst_IsZichtbaarInStringRepresentatie" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZwembadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="V1OOP_V2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ZwembadTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TariefFabriek" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ZwembadTest.inhoud_standaardZwembad_berekendJuisteInhoud" />
         <item itemvalue="Application.Practica.Practicum_3B.Main" />
         <item itemvalue="JUnit.VoetbalclubTest" />
-        <item itemvalue="JUnit.VoetbalclubTest.verwerkResultaat_VerwerkWinst_IsZichtbaarInStringRepresentatie" />
-        <item itemvalue="JUnit.VoetbalclubTest.setNaam_AlsNaamIsEmptyString_NaamIsFC" />
-        <item itemvalue="JUnit.ZwembadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +160,7 @@
       <workItem from="1669158334443" duration="609000" />
       <workItem from="1669209373807" duration="1124000" />
       <workItem from="1669367303184" duration="2544000" />
-      <workItem from="1669377477345" duration="9058000" />
+      <workItem from="1669377477345" duration="10866000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669158135260</created>
@@ -179,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669385597300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Practicum_3B">
+      <created>1669411817162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669411817162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +212,8 @@
     <MESSAGE value="Changed directory structure &amp; added ZwembadTest.java" />
     <MESSAGE value="added tests van opdracht 4a" />
     <MESSAGE value="added tests van opdracht 3a" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tests van opdracht 3a" />
+    <MESSAGE value="Added Practicum_3B" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Practicum_3B" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
