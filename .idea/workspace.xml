@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="Changed directory structure &amp; added ZwembadTest.java">
-      <change afterPath="$PROJECT_DIR$/test/Practica/Practicum_2B/VoetbalclubTest.java" afterDir="false" />
+    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="added tests van opdracht 3a">
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_3B/Cirkel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_3B/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_2B/Voetbalclub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_2B/Voetbalclub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_2B/VoetbalclubTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +64,13 @@
       <recent name="Practica.Practicum_2B" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VoetbalclubTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_2B.Main" />
+  <component name="RunManager" selected="Application.Practica.Practicum_3B.Main">
+    <configuration name="Practica.Practicum_3B.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_3B.Main" />
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practica.Practicum_2B.*" />
+          <option name="PATTERN" value="Practica.Practicum_3B.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practica.Practicum_3B.Main" />
         <item itemvalue="JUnit.VoetbalclubTest" />
         <item itemvalue="JUnit.VoetbalclubTest.verwerkResultaat_VerwerkWinst_IsZichtbaarInStringRepresentatie" />
         <item itemvalue="JUnit.VoetbalclubTest.setNaam_AlsNaamIsEmptyString_NaamIsFC" />
         <item itemvalue="JUnit.ZwembadTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +156,7 @@
       <workItem from="1669158334443" duration="609000" />
       <workItem from="1669209373807" duration="1124000" />
       <workItem from="1669367303184" duration="2544000" />
-      <workItem from="1669377477345" duration="7980000" />
+      <workItem from="1669377477345" duration="9058000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669158135260</created>
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669377601961</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added tests van opdracht 3a">
+      <created>1669385597300</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669385597300</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +199,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Changed directory structure &amp; added ZwembadTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed directory structure &amp; added ZwembadTest.java" />
+    <MESSAGE value="added tests van opdracht 4a" />
+    <MESSAGE value="added tests van opdracht 3a" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests van opdracht 3a" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
