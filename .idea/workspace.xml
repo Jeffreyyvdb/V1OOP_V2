@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/test/ZwembadTest.java" afterDir="false" />
+    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="Changed directory structure &amp; added ZwembadTest.java">
+      <change afterPath="$PROJECT_DIR$/test/Practica/Practicum_2B/VoetbalclubTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1OOP_V2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/V1OOP_V2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/week1/les1/opdracht1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/week1/les1/opdracht2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/week1/les1/opdracht3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/week1/les1/opdracht3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht3/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/week1/les1/opdracht4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/week1/les1/opdracht4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht4/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/week1/les1/opdracht5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/week1/les1/opdracht5/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht5/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/week1/les2/opdracht1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/week1/les2/opdracht1/Piloot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/Piloot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/week1/les2/opdracht1/PilootClassDiagram.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/PilootClassDiagram.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/week1/les2/opdracht1/PilootClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/PilootClassDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_2B/Voetbalclub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_2B/Voetbalclub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_2B/VoetbalclubTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,20 +65,13 @@
       <recent name="Practica.Practicum_2B" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ZwembadTest.inhoud_standaardZwembad_berekendJuisteInhoud">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="V1OOP_V2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.VoetbalclubTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_1.Main" />
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_2B.Main" />
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practica.Practicum_1.*" />
+          <option name="PATTERN" value="Practica.Practicum_2B.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,15 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in V1OOP_V2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="V1OOP_V2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practica.Practicum_2B in V1OOP_V2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VoetbalclubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
@@ -115,27 +88,59 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Practica.Practicum_2B" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_2B.VoetbalclubTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZwembadTest.inhoud_standaardZwembad_berekendJuisteInhoud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VoetbalclubTest.setNaam_AlsNaamIsEmptyString_NaamIsFC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="V1OOP_V2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practica.Practicum_2B.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Practica.Practicum_2B" />
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_2B.VoetbalclubTest" />
+      <option name="METHOD_NAME" value="setNaam_AlsNaamIsEmptyString_NaamIsFC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoetbalclubTest.verwerkResultaat_VerwerkWinst_IsZichtbaarInStringRepresentatie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="V1OOP_V2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practica.Practicum_2B.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Practica.Practicum_2B" />
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_2B.VoetbalclubTest" />
+      <option name="METHOD_NAME" value="verwerkResultaat_VerwerkWinst_IsZichtbaarInStringRepresentatie" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZwembadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ZwembadTest" />
-      <option name="METHOD_NAME" value="inhoud_standaardZwembad_berekendJuisteInhoud" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ZwembadTest.inhoud_standaardZwembad_berekendJuisteInhoud" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.All in V1OOP_V2" />
-        <item itemvalue="JUnit.Practica.Practicum_2B in V1OOP_V2" />
+        <item itemvalue="JUnit.VoetbalclubTest" />
+        <item itemvalue="JUnit.VoetbalclubTest.verwerkResultaat_VerwerkWinst_IsZichtbaarInStringRepresentatie" />
+        <item itemvalue="JUnit.VoetbalclubTest.setNaam_AlsNaamIsEmptyString_NaamIsFC" />
+        <item itemvalue="JUnit.ZwembadTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -152,6 +157,7 @@
       <workItem from="1669158334443" duration="609000" />
       <workItem from="1669209373807" duration="1124000" />
       <workItem from="1669367303184" duration="2544000" />
+      <workItem from="1669377477345" duration="7980000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669158135260</created>
@@ -160,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669158135260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed directory structure &amp; added ZwembadTest.java">
+      <created>1669377601961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669377601961</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +192,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Changed directory structure &amp; added ZwembadTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed directory structure &amp; added ZwembadTest.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -191,5 +205,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/V1OOP_V2$VoetbalclubTest.ic" NAME="VoetbalclubTest Coverage Results" MODIFIED="1669380266888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Practica.Practicum_2B.*</FILTER>
+    </SUITE>
   </component>
 </project>

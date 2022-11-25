@@ -8,7 +8,7 @@ public class Voetbalclub {
 
 
     public Voetbalclub(String naam){
-        this.naam = naam;
+        this.setNaam(naam);
     }
 
     public int getAantalGewonnen() {
@@ -37,6 +37,18 @@ public class Voetbalclub {
             aantalGelijk = aantalGelijk + 1;
         if (ch == 'v')
             aantalVerloren = aantalVerloren + 1;
+    }
+
+    public String getNaam() {
+        return  naam;
+    }
+
+    public void setNaam(String naam) {
+        if(naam.isEmpty() || naam == null){
+            this.naam = "FC";
+            return;
+        }
+        this.naam = naam ;
     }
 
     @Override
