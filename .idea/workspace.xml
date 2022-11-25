@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment=" added opdrachten les 3 &amp; moved test to correct directory">
-      <change afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht1/Eigenaar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht1/Huisdier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht1/Main.java" afterDir="false" />
+    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="Added opdracht 1, les 4">
+      <change afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht2/Eigenaar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht2/Huisdier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Repos/V1OOP_V2"
+    "last_opened_file_path": "C:/Repos/V1OOP_V2/src/Werkboek/les4/opdracht2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -53,11 +53,11 @@
       <recent name="Practica.Practicum_2B" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Repos\V1OOP_V2\src\Werkboek\les4\opdracht2" />
       <recent name="C:\Repos\V1OOP_V2\src\Werkboek\week1\les2" />
       <recent name="C:\Repos\V1OOP_V2\src\Werkboek\week1\les1" />
       <recent name="C:\Repos\V1OOP_V2\src\Practica\Practicum_2B" />
       <recent name="C:\Repos\V1OOP_V2\src\Practica\Practicum_2A" />
-      <recent name="C:\Repos\V1OOP_V2\src\Practica\Practicum_1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -66,26 +66,13 @@
       <recent name="Practica.Practicum_2B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Werkboek.les4.opdracht1.Main">
+  <component name="RunManager" selected="Application.Werkboek.les4.opdracht2.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Werkboek.les3.opdracht2.Main" />
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Werkboek.les3.opdracht2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practica.Practicum_3B.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_3B.Main" />
-      <module name="V1OOP_V2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practica.Practicum_3B.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Werkboek.les4.opdracht2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Werkboek.les4.opdracht2.Main" />
+      <module name="V1OOP_V2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Werkboek.les4.opdracht2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZwembadTest.inhoud_standaardZwembad_berekendJuisteInhoud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <extension name="coverage">
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Werkboek.les4.opdracht2.Main" />
         <item itemvalue="Application.Werkboek.les4.opdracht1.Main" />
         <item itemvalue="Application.TariefFabriek" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ZwembadTest.inhoud_standaardZwembad_berekendJuisteInhoud" />
-        <item itemvalue="Application.Practica.Practicum_3B.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +157,7 @@
       <workItem from="1669158334443" duration="609000" />
       <workItem from="1669209373807" duration="1124000" />
       <workItem from="1669367303184" duration="2544000" />
-      <workItem from="1669377477345" duration="12552000" />
+      <workItem from="1669377477345" duration="13015000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669158135260</created>
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669413963104</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added opdracht 1, les 4">
+      <created>1669416099952</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669416099952</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +225,8 @@
     <MESSAGE value="added tests van opdracht 3a" />
     <MESSAGE value="Added Practicum_3B" />
     <MESSAGE value=" added opdrachten les 3 &amp; moved test to correct directory" />
-    <option name="LAST_COMMIT_MESSAGE" value=" added opdrachten les 3 &amp; moved test to correct directory" />
+    <MESSAGE value="Added opdracht 1, les 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added opdracht 1, les 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
