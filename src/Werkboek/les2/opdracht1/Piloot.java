@@ -1,4 +1,4 @@
-package Werkboek.week1.les2.opdracht1;
+package Werkboek.les2.opdracht1;
 
 public class Piloot {
     private String naam;
