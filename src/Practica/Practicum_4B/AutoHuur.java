@@ -31,11 +31,13 @@ public class AutoHuur {
         if( gehuurdeAuto == null){
             return 0;
         }
-        if( huurder == null){
-            return 0;
+        double totaalPrijs = aantalDagen * gehuurdeAuto.getPrijsPerDag();
+
+        if( huurder != null){
+            totaalPrijs = totaalPrijs * (1- huurder.getKorting() / 100);
         }
 
-        return aantalDagen * gehuurdeAuto.getPrijsPerDag() *  (1- huurder.getKorting() / 100) ;
+        return  totaalPrijs ;
     }
     @Override
     public String toString(){

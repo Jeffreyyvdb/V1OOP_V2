@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="Added opdracht 2, les 4">
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_4A/Huis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_4A/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_4A/Persoon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_4B/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_4B/AutoHuur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_4B/Klant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_4B/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Practica/Practicum_4B/AutoHuurTest.java" afterDir="false" />
+    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="Added practicum 4, and les 5 opdracht 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_4B/AutoHuur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_4B/AutoHuur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Practica/Practicum_4B/AutoHuurTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Practica/Practicum_4B/AutoHuurTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,34 +65,8 @@
       <recent name="Practica.Practicum_2B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Werkboek.les5.opdracht3.Main" />
-      <module name="V1OOP_V2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Werkboek.les5.opdracht3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practica.Practicum_4B.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_4B.Main" />
-      <module name="V1OOP_V2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practica.Practicum_4B.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutoHuurTest.TotaalPrijs_3Dagen10euroPerDagMet10ProcentKorting_GeeftJuistePrijs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AutoHuurTest">
+    <configuration name="AutoHuurTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
@@ -108,13 +76,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="Practica.Practicum_4B" />
       <option name="MAIN_CLASS_NAME" value="Practica.Practicum_4B.AutoHuurTest" />
-      <option name="METHOD_NAME" value="TotaalPrijs_3Dagen10euroPerDagMet10ProcentKorting_GeeftJuistePrijs" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoHuurTest.test_GeenHuurderWelAuto_totaalPrijsKlopt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="V1OOP_V2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practica.Practicum_4B.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Practica.Practicum_4B" />
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_4B.AutoHuurTest" />
+      <option name="METHOD_NAME" value="test_GeenHuurderWelAuto_totaalPrijsKlopt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoHuurTest.toString_KlantMet10ProcentKorting_wordtOpJuisteManierWeergegevenInString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoHuurTest.test_WelHuurderGeenAuto_totaalPrijsKlopt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
@@ -124,13 +107,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Practica.Practicum_4B" />
       <option name="MAIN_CLASS_NAME" value="Practica.Practicum_4B.AutoHuurTest" />
-      <option name="METHOD_NAME" value="toString_KlantMet10ProcentKorting_wordtOpJuisteManierWeergegevenInString" />
+      <option name="METHOD_NAME" value="test_WelHuurderGeenAuto_totaalPrijsKlopt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoHuurTest.toString_KlantZonderKorting_wordtOpJuisteManierWeergegevenInString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoHuurTest.toString_GeenHuurderGeenAuto_GeeftVerwachteString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
@@ -140,7 +123,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Practica.Practicum_4B" />
       <option name="MAIN_CLASS_NAME" value="Practica.Practicum_4B.AutoHuurTest" />
-      <option name="METHOD_NAME" value="toString_KlantZonderKorting_wordtOpJuisteManierWeergegevenInString" />
+      <option name="METHOD_NAME" value="toString_GeenHuurderGeenAuto_GeeftVerwachteString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoHuurTest.totaalPrijs_WelHuurderWelAutoWelKorting_GeeftJuisteTotaalPrijs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="V1OOP_V2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practica.Practicum_4B.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Practica.Practicum_4B" />
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_4B.AutoHuurTest" />
+      <option name="METHOD_NAME" value="totaalPrijs_WelHuurderWelAutoWelKorting_GeeftJuisteTotaalPrijs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.AutoHuurTest.toString_KlantMet10ProcentKorting_wordtOpJuisteManierWeergegevenInString" />
-        <item itemvalue="JUnit.AutoHuurTest.toString_KlantZonderKorting_wordtOpJuisteManierWeergegevenInString" />
-        <item itemvalue="Application.Practica.Practicum_4B.Main" />
-        <item itemvalue="JUnit.AutoHuurTest.TotaalPrijs_3Dagen10euroPerDagMet10ProcentKorting_GeeftJuistePrijs" />
+        <item itemvalue="JUnit.AutoHuurTest" />
+        <item itemvalue="JUnit.AutoHuurTest.test_GeenHuurderWelAuto_totaalPrijsKlopt" />
+        <item itemvalue="JUnit.AutoHuurTest.test_WelHuurderGeenAuto_totaalPrijsKlopt" />
+        <item itemvalue="JUnit.AutoHuurTest.totaalPrijs_WelHuurderWelAutoWelKorting_GeeftJuisteTotaalPrijs" />
+        <item itemvalue="JUnit.AutoHuurTest.toString_GeenHuurderGeenAuto_GeeftVerwachteString" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +168,7 @@
       <workItem from="1669209373807" duration="1124000" />
       <workItem from="1669367303184" duration="2544000" />
       <workItem from="1669377477345" duration="13208000" />
-      <workItem from="1669967156495" duration="10161000" />
+      <workItem from="1669967156495" duration="14151000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669158135260</created>
@@ -220,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669416557266</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added practicum 4, and les 5 opdracht 3">
+      <created>1669987270225</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669987270225</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +252,8 @@
     <MESSAGE value=" added opdrachten les 3 &amp; moved test to correct directory" />
     <MESSAGE value="Added opdracht 1, les 4" />
     <MESSAGE value="Added opdracht 2, les 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added opdracht 2, les 4" />
+    <MESSAGE value="Added practicum 4, and les 5 opdracht 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added practicum 4, and les 5 opdracht 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
