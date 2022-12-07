@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="add practicum 5">
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_6A/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_6A/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_6A/Persoon.java" afterDir="false" />
+    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="add practicum 6A">
+      <change afterPath="$PROJECT_DIR$/test/Practica/Practicum_6A/GameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Practica/Practicum_6A/PersoonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_6A/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_6A/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_6A/Persoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_6A/Persoon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,20 +67,7 @@
       <recent name="Practica.Practicum_2B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practica.Practicum_6A.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_5.Main" />
-      <module name="V1OOP_V2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practica.Practicum_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PersoonTest">
     <configuration name="Practica.Practicum_6A.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica.Practicum_6A.Main" />
       <module name="V1OOP_V2" />
@@ -93,48 +81,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoHuurTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practica.Practicum_4B.*" />
+          <option name="PATTERN" value="Practica.Practicum_6A.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Practica.Practicum_4B" />
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_4B.AutoHuurTest" />
+      <option name="PACKAGE_NAME" value="Practica.Practicum_6A" />
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_6A.GameTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoHuurTest.test_GeenHuurderWelAuto_totaalPrijsKlopt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.testHuidigeWaardeNwPrijsNa5Jr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practica.Practicum_4B.*" />
+          <option name="PATTERN" value="Practica.Practicum_6A.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Practica.Practicum_4B" />
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_4B.AutoHuurTest" />
-      <option name="METHOD_NAME" value="test_GeenHuurderWelAuto_totaalPrijsKlopt" />
+      <option name="PACKAGE_NAME" value="Practica.Practicum_6A" />
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_6A.GameTest" />
+      <option name="METHOD_NAME" value="testHuidigeWaardeNwPrijsNa5Jr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoHuurTest.test_WelHuurderGeenAuto_totaalPrijsKlopt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersoonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practica.Practicum_4B.*" />
+          <option name="PATTERN" value="Practica.Practicum_6A.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Practica.Practicum_4B" />
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_4B.AutoHuurTest" />
-      <option name="METHOD_NAME" value="test_WelHuurderGeenAuto_totaalPrijsKlopt" />
+      <option name="PACKAGE_NAME" value="Practica.Practicum_6A" />
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_6A.PersoonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersoonTest.testGameListVerkoopVoorwaardenOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="V1OOP_V2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practica.Practicum_6A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Practica.Practicum_6A" />
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_6A.PersoonTest" />
+      <option name="METHOD_NAME" value="testGameListVerkoopVoorwaardenOK" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersoonTest" />
+        <item itemvalue="JUnit.PersoonTest.testGameListVerkoopVoorwaardenOK" />
+        <item itemvalue="JUnit.GameTest" />
+        <item itemvalue="JUnit.GameTest.testHuidigeWaardeNwPrijsNa5Jr" />
         <item itemvalue="Application.Practica.Practicum_6A.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.AutoHuurTest" />
-        <item itemvalue="JUnit.AutoHuurTest.test_GeenHuurderWelAuto_totaalPrijsKlopt" />
-        <item itemvalue="JUnit.AutoHuurTest.test_WelHuurderGeenAuto_totaalPrijsKlopt" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +167,7 @@
       <workItem from="1669367303184" duration="2544000" />
       <workItem from="1669377477345" duration="13208000" />
       <workItem from="1669967156495" duration="14201000" />
-      <workItem from="1670414510452" duration="4430000" />
+      <workItem from="1670414510452" duration="6502000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669158135260</created>
@@ -236,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670416022244</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add practicum 6A">
+      <created>1670419045820</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670419045820</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +274,8 @@
     <MESSAGE value="Added opdracht 2, les 4" />
     <MESSAGE value="Added practicum 4, and les 5 opdracht 3" />
     <MESSAGE value="add practicum 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="add practicum 5" />
+    <MESSAGE value="add practicum 6A" />
+    <option name="LAST_COMMIT_MESSAGE" value="add practicum 6A" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -273,6 +284,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/Practica/Practicum_6A/PersoonTest.java</url>
+          <line>254</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

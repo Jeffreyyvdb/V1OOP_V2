@@ -21,7 +21,7 @@ public class Persoon {
         // Als hij game nog niet bezit
         double huidigePrijs = g.huidigeWaarde();
         if(budget >= huidigePrijs && !mijnGames.contains(g)){
-            budget -= huidigePrijs;
+            budget = budget - huidigePrijs;
             mijnGames.add(g);
             return true;
         }
@@ -35,7 +35,8 @@ public class Persoon {
         if(mijnGames.contains(g)){
             double huidigePrijs = g.huidigeWaarde();
             if(!koper.mijnGames.contains(g) && koper.budget >= huidigePrijs ){
-                koper.budget -= huidigePrijs;
+                koper.budget = koper.budget -  huidigePrijs;
+                budget = budget + huidigePrijs;
                 mijnGames.remove(g);
                 koper.mijnGames.add(g);
                 return true;
@@ -47,11 +48,11 @@ public class Persoon {
     @Override
     public String toString(){
         StringBuilder sb = new StringBuilder();
-        sb.append(String.format("%1$s heeft een budget van €%2$.2f en bezit de volgende games:\n",
+        sb.append(String.format("%1$s heeft een budget van €%2$.2f en bezit de volgende games:",
                 this.naam, this.budget));
 
         mijnGames.forEach(game -> {
-            sb.append(game.toString() + "\n");
+            sb.append("\n" + game.toString());
         });
 
         return sb.toString();

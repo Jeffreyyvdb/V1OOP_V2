@@ -20,8 +20,13 @@ public class Game {
     public double huidigeWaarde(){
         // aantal jaar sinds release
         int jarenSindsRelease = LocalDate.now().getYear() - releaseJaar;
-        // 30% per jaar afhalen
-        return Math.pow(nieuwprijs * 0.7,jarenSindsRelease) ;
+        if(jarenSindsRelease > 0) {
+            // 30% per jaar afhalen
+            double factor =  Math.pow(0.7, jarenSindsRelease);
+            return nieuwprijs * factor;
+
+        }
+        return nieuwprijs;
     }
 
     @Override
@@ -36,7 +41,7 @@ public class Game {
 
     @Override
     public String toString(){
-        return String.format("%1$s, uitgegeven in %2$s; nieuwprijs: €%3$s nu voor: €%4$.2f",
+        return String.format("%1$s, uitgegeven in %2$s; nieuwprijs: €%3$.2f nu voor: €%4$.2f",
                 naam, releaseJaar, nieuwprijs, huidigeWaarde());
     }
 }
