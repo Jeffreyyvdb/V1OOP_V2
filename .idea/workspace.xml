@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="Added practicum 4, and les 5 opdracht 3">
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_5/Klas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_5/Leerling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_4B/AutoHuur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_4B/AutoHuur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Practica/Practicum_4B/AutoHuurTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Practica/Practicum_4B/AutoHuurTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,20 @@
       <recent name="Practica.Practicum_2B" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AutoHuurTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_5.Main" />
+      <module name="V1OOP_V2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practica.Practicum_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutoHuurTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <extension name="coverage">
@@ -113,22 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoHuurTest.toString_GeenHuurderGeenAuto_GeeftVerwachteString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="V1OOP_V2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practica.Practicum_4B.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Practica.Practicum_4B" />
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_4B.AutoHuurTest" />
-      <option name="METHOD_NAME" value="toString_GeenHuurderGeenAuto_GeeftVerwachteString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AutoHuurTest.totaalPrijs_WelHuurderWelAutoWelKorting_GeeftJuisteTotaalPrijs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <extension name="coverage">
@@ -147,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AutoHuurTest" />
         <item itemvalue="JUnit.AutoHuurTest.test_GeenHuurderWelAuto_totaalPrijsKlopt" />
         <item itemvalue="JUnit.AutoHuurTest.test_WelHuurderGeenAuto_totaalPrijsKlopt" />
         <item itemvalue="JUnit.AutoHuurTest.totaalPrijs_WelHuurderWelAutoWelKorting_GeeftJuisteTotaalPrijs" />
-        <item itemvalue="JUnit.AutoHuurTest.toString_GeenHuurderGeenAuto_GeeftVerwachteString" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +166,8 @@
       <workItem from="1669209373807" duration="1124000" />
       <workItem from="1669367303184" duration="2544000" />
       <workItem from="1669377477345" duration="13208000" />
-      <workItem from="1669967156495" duration="14151000" />
+      <workItem from="1669967156495" duration="14201000" />
+      <workItem from="1670414510452" duration="1453000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669158135260</created>
@@ -226,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669987270225</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added practicum 4, and les 5 opdracht 3">
+      <created>1670008546105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670008546105</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
