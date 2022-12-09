@@ -1,5 +1,7 @@
 package Practica.Practicum_8;
 
+import Practica.Practicum_9.Utils;
+
 public abstract class Voertuig implements Goed {
     private String type;
     protected double nieuwprijs;
@@ -24,7 +26,7 @@ public abstract class Voertuig implements Goed {
     @Override
     public String toString(){
         //Mercedes-Benz A-klasse A 180 met bouwjaar 2019 heeft een waarde van: €20996.5
-        return String.format("%1$s met bouwjaar %2$s heeft een waarde van €%3$.2f",
-                this.type, this.bouwjaar,this.huidigeWaarde());
+        return String.format("%1$s met bouwjaar %2$s heeft een waarde van %3$s",
+                this.type, this.bouwjaar, Utils.euroBedrag(this.huidigeWaarde()));
     }
 }

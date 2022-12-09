@@ -1,5 +1,7 @@
 package Practica.Practicum_8;
 
+import Practica.Practicum_9.Utils;
+
 import java.time.LocalDate;
 
 public class Computer implements Goed{
@@ -37,7 +39,7 @@ public class Computer implements Goed{
     @Override
     public String toString(){
         //Mercedes-Benz A-klasse A 180 met bouwjaar 2019 heeft een waarde van: €20996.5
-        return String.format("%1$s met productiejaar %2$s heeft een waarde van €%3$.2f",
-                this.type, this.productieJaar,this.huidigeWaarde());
+        return String.format("%1$s met productiejaar %2$s heeft een waarde van %3$s",
+                this.type, this.productieJaar, Utils.euroBedrag(this.huidigeWaarde()));
     }
 }
