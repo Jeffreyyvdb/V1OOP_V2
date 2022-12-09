@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="add practicum 6B">
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_7/CensureerProces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_7/HoofdletterProces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_7/OpmaakProces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_7/StringProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_7/VervangProces.java" afterDir="false" />
+    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="add practicum 7">
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_8/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_8/BedrijfsInventaris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_8/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_8/Fiets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_8/Goed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_8/Voertuig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_8/WaardeBerekeningHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +75,7 @@
       <recent name="Practica.Practicum_6B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practica.Practicum_7.Main">
+  <component name="RunManager" selected="Application.Practica.Practicum_8.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica.Practicum_6B.Main" />
       <module name="V1OOP_V2" />
@@ -113,6 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practica.Practicum_8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_8.Main" />
+      <module name="V1OOP_V2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practica.Practicum_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersoonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1OOP_V2" />
       <extension name="coverage">
@@ -128,29 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersoonTest.testGameListVerkoopVoorwaardenOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="V1OOP_V2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practica.Practicum_6A.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Practica.Practicum_6A" />
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_6A.PersoonTest" />
-      <option name="METHOD_NAME" value="testGameListVerkoopVoorwaardenOK" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practica.Practicum_8.Main" />
         <item itemvalue="Application.Practica.Practicum_7.Main" />
         <item itemvalue="Application.Practica.Practicum_6B.Opdracht2.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PersoonTest" />
-        <item itemvalue="JUnit.PersoonTest.testGameListVerkoopVoorwaardenOK" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +168,7 @@
       <workItem from="1669377477345" duration="13208000" />
       <workItem from="1669967156495" duration="14201000" />
       <workItem from="1670414510452" duration="8604000" />
-      <workItem from="1670573567925" duration="2887000" />
+      <workItem from="1670573567925" duration="15626000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669158135260</created>
@@ -262,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670422774020</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add practicum 7">
+      <created>1670576514295</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670576514295</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +299,8 @@
     <MESSAGE value="add practicum 6A" />
     <MESSAGE value="add practicum 6A tests" />
     <MESSAGE value="add practicum 6B" />
-    <option name="LAST_COMMIT_MESSAGE" value="add practicum 6B" />
+    <MESSAGE value="add practicum 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="add practicum 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
