@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="add practicum 9" />
+    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="Change Practica.Practicum_9 to Practica.Practicum_9A">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_fxml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-base-19-ea+8-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-base-19-ea+8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-base-20-ea+9-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-base-20-ea+9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-19-ea+8-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-19-ea+8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-20-ea+9-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-20-ea+9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-19-ea+8-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-19-ea+8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-20-ea+9-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-20-ea+9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-19-ea+8-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-19-ea+8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-20-ea+9-win.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-20-ea+9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/HotelApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/model/Boeking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/model/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/model/Kamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/model/KamerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/model/Klant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/userinterface/HotelOverzicht.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/userinterface/HotelOverzichtController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1OOP_V2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/V1OOP_V2.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,37 +55,44 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HvDL66jTIQOpthRJA6XfYuXT78" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Repos/V1OOP_V2/src/Practica/Practicum_6B/Opdracht2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Repos/V1OOP_V2/lib",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Practica.Practicum_2B" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Repos\V1OOP_V2\src\Practica\Practicum_9B" />
       <recent name="C:\Repos\V1OOP_V2\src\Practica\Practicum_6B\Opdracht2" />
       <recent name="C:\Repos\V1OOP_V2\src\Werkboek\les4\opdracht2" />
       <recent name="C:\Repos\V1OOP_V2\src\Werkboek\week1\les2" />
       <recent name="C:\Repos\V1OOP_V2\src\Werkboek\week1\les1" />
-      <recent name="C:\Repos\V1OOP_V2\src\Practica\Practicum_2B" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -65,13 +104,14 @@
       <recent name="Practica.Practicum_6B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practica.Practicum_8.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_6B.Main" />
+  <component name="RunManager" selected="Application.HotelApp">
+    <configuration name="HotelApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_9B.HotelApp" />
       <module name="V1OOP_V2" />
+      <option name="VM_PARAMETERS" value="--module-path lib --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practica.Practicum_6B.*" />
+          <option name="PATTERN" value="Practica.Practicum_9B.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +159,11 @@
       </method>
     </configuration>
     <configuration name="Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_9.Utils" />
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_9A.Utils" />
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practica.Practicum_9.*" />
+          <option name="PATTERN" value="Practica.Practicum_9A.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,13 +171,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.HotelApp" />
+      <item itemvalue="Application.Practica.Practicum_6B.Opdracht2.Main" />
+      <item itemvalue="Application.Practica.Practicum_7.Main" />
+      <item itemvalue="Application.Practica.Practicum_8.Main" />
+      <item itemvalue="Application.Utils" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HotelApp" />
         <item itemvalue="Application.Practica.Practicum_8.Main" />
         <item itemvalue="Application.Utils" />
         <item itemvalue="Application.Practica.Practicum_7.Main" />
         <item itemvalue="Application.Practica.Practicum_6B.Opdracht2.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +203,8 @@
       <workItem from="1669377477345" duration="13208000" />
       <workItem from="1669967156495" duration="14201000" />
       <workItem from="1670414510452" duration="8604000" />
-      <workItem from="1670573567925" duration="17532000" />
+      <workItem from="1670573567925" duration="17933000" />
+      <workItem from="1670619103687" duration="3956000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669158135260</created>
@@ -270,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670618320964</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Change Practica.Practicum_9 to Practica.Practicum_9A">
+      <created>1670618463177</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670618463177</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +343,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="Changed directory structure &amp; added ZwembadTest.java" />
     <MESSAGE value="added tests van opdracht 4a" />
@@ -304,7 +360,8 @@
     <MESSAGE value="add practicum 7" />
     <MESSAGE value="add practicum 8" />
     <MESSAGE value="add practicum 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="add practicum 9" />
+    <MESSAGE value="Change Practica.Practicum_9 to Practica.Practicum_9A" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Practica.Practicum_9 to Practica.Practicum_9A" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

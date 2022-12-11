@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="openjfx.javafx.fxml" type="repository">
+    <properties maven-id="org.openjfx:javafx-fxml:LATEST" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javafx-fxml-20-ea+9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx-fxml-20-ea+9-win.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx-controls-20-ea+9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx-controls-20-ea+9-win.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx-graphics-20-ea+9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx-graphics-20-ea+9-win.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx-base-20-ea+9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javafx-base-20-ea+9-win.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
