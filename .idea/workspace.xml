@@ -1,35 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="Change Practica.Practicum_9 to Practica.Practicum_9A">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_fxml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-base-19-ea+8-win.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-base-19-ea+8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-base-20-ea+9-win.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-base-20-ea+9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-19-ea+8-win.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-19-ea+8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-20-ea+9-win.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-20-ea+9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-19-ea+8-win.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-19-ea+8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-20-ea+9-win.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-fxml-20-ea+9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-19-ea+8-win.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-19-ea+8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-20-ea+9-win.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-20-ea+9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/HotelApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/model/Boeking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/model/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/model/Kamer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/model/KamerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/model/Klant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/userinterface/HotelOverzicht.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/userinterface/HotelOverzichtController.java" afterDir="false" />
+    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="Added Practicum_9B hotelApp startpunt">
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/userinterface/Boekingen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/userinterface/BoekingenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1OOP_V2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/V1OOP_V2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +19,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -76,7 +52,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Repos/V1OOP_V2/lib",
+    "last_opened_file_path": "C:/Users/jeffr/AppData/Local/SceneBuilder/SceneBuilder.exe",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -204,7 +180,7 @@
       <workItem from="1669967156495" duration="14201000" />
       <workItem from="1670414510452" duration="8604000" />
       <workItem from="1670573567925" duration="17933000" />
-      <workItem from="1670619103687" duration="3956000" />
+      <workItem from="1670619103687" duration="5807000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669158135260</created>
@@ -325,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670618463177</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added Practicum_9B hotelApp startpunt">
+      <created>1670718473602</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670718473602</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +344,8 @@
     <MESSAGE value="add practicum 8" />
     <MESSAGE value="add practicum 9" />
     <MESSAGE value="Change Practica.Practicum_9 to Practica.Practicum_9A" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Practica.Practicum_9 to Practica.Practicum_9A" />
+    <MESSAGE value="Added Practicum_9B hotelApp startpunt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Practicum_9B hotelApp startpunt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
