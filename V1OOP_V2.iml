@@ -41,6 +41,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="openjfx.javafx.base" level="project" />
     <orderEntry type="library" name="openjfx.javafx.fxml" level="project" />
   </component>
 </module>
