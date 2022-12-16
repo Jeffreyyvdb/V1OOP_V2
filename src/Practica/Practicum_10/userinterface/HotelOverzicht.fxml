@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="359.0" prefWidth="517.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Practica.Practicum_10.userinterface.HotelOverzichtController">
+    <children>
+        <DatePicker fx:id="overzichtDatePicker" editable="false" layoutX="74.0" layoutY="84.0" onAction="#toonBoekingen" />
+        <Button layoutX="27.0" layoutY="84.0" mnemonicParsing="false" onAction="#toonVorigeDag" text="&lt;&lt;" />
+        <Button layoutX="263.0" layoutY="84.0" mnemonicParsing="false" onAction="#toonVolgendeDag" text="&gt;&gt;" />
+        <Label fx:id="hotelnaamLabel" layoutX="27.0" layoutY="30.0" text="Boekingen hotelnaam">
+            <font>
+                <Font name="Calibri" size="24.0" />
+            </font>
+        </Label>
+        <ListView fx:id="boekingenListView" layoutX="27.0" layoutY="134.0" prefHeight="200.0" prefWidth="463.0" />
+        <Button layoutX="356.0" layoutY="83.0" mnemonicParsing="false" onAction="#nieuweBoeking" prefHeight="26.0" prefWidth="133.0" text="Nieuwe boeking" />
+    </children>
+</AnchorPane>
