@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-<AnchorPane prefHeight="359.0" prefWidth="517.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Practica.Practicum_10.userinterface.HotelOverzichtController">
+<AnchorPane prefHeight="359.0" prefWidth="517.0" xmlns="http://javafx.com/javafx/18.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Practica.Practicum_10.userinterface.HotelOverzichtController">
     <children>
         <DatePicker fx:id="overzichtDatePicker" editable="false" layoutX="74.0" layoutY="84.0" onAction="#toonBoekingen" />
         <Button layoutX="27.0" layoutY="84.0" mnemonicParsing="false" onAction="#toonVorigeDag" text="&lt;&lt;" />
