@@ -1,0 +1,13 @@
+Apacer Compact Flash 24* 256Mb (CF) : 31.00
+Apacer Compact Flash 24* 512Mb (CF) : 49.00
+Apacer PhotoSteno Pro II 100* 512Mb (CF) : 72.00
+Apacer PhotoSteno Pro II 100* 1Gb (CF) : 144.00
+Sony Memory Stick Pro 256Mb (MS) : 55.00
+Sony Memory Stick Pro High Speed 512Mb (MS) : 103.00
+Apacer Multi Media Card 256Mb (MMC) : 27.00
+Apacer Multi Media Card 512Mb (MMC) : 48.00
+Apacer Multi Media card 1Gb (MMC) : 72.00
+Apacer Secure Digital 40* 256Mb (SD) : 43.00
+Apacer Secure Digital 40* 1Gb (Sd) : 90.00
+Fuji xD Picture Card 128Mb (xD) : 29.00
+Fuji xD Picture Card 256Mb (xD) : 47.00

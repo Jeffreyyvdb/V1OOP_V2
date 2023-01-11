@@ -45,6 +45,9 @@ public class BoekingenController {
         DatePickerAankomstDatum.setValue(null);
         DatePickerVertrekDatum.setValue(null);
 
+        DatePickerAankomstDatum.getEditor().setEditable(false);
+        DatePickerVertrekDatum.getEditor().setEditable(false);
+
         var obserableKamertypen = FXCollections.observableArrayList(hotel.getKamerTypen());
 
         ComboBoxKamerType.setItems(obserableKamertypen);
@@ -62,15 +65,14 @@ public class BoekingenController {
     }
     @FXML
     void ButtonBoek_Clicked(ActionEvent event) {
-
-        var aankomstDatum = DatePickerAankomstDatum.getValue();
-        var vertrekDatum = DatePickerVertrekDatum.getValue();
-        var naam = textBoxNaam.getCharacters().toString();
-        var adres = textBoxAdres.getCharacters().toString();
-        var kamerType = ComboBoxKamerType.getValue();
-
         try
         {
+            var aankomstDatum = DatePickerAankomstDatum.getValue();
+            var vertrekDatum = DatePickerVertrekDatum.getValue();
+            var naam = textBoxNaam.getCharacters().toString();
+            var adres = textBoxAdres.getCharacters().toString();
+            var kamerType = ComboBoxKamerType.getValue();
+
             if(naam.isBlank()){
                 throw new Exception("Naam is leeg");
             }
@@ -80,7 +82,7 @@ public class BoekingenController {
             }
 
             if(aankomstDatum == null || vertrekDatum == null){
-                throw new Exception("aakomst- of vertrek- datum is in het verleden");
+                throw new Exception("aakomst- of vertrek- datum is niet gevuld");
             }
 
             if(aankomstDatum.isBefore(LocalDate.now()) || vertrekDatum.isBefore(LocalDate.now())) {

@@ -1,39 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="opdracht 10 gemaakt">
-      <change afterPath="$PROJECT_DIR$/src/Werkboek/les11/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Werkboek/les11/invoer.txt" afterDir="false" />
+    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="werkboek les 11">
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_11/Artikel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_11/Artikelen.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_11/ArtikelenInEuros.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practica/Practicum_11/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht3/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht4/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht5/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht5/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les2/opdracht1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les2/opdracht1/Piloot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/Piloot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les2/opdracht1/PilootClassDiagram.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/PilootClassDiagram.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les2/opdracht1/PilootClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/PilootClassDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les3/opdracht2/BelastingTarieven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les3/opdracht2/BelastingTarieven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les3/opdracht2/TariefFabriek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les3/opdracht2/TariefFabriek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht1/Eigenaar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht1/Eigenaar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht1/Huisdier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht1/Huisdier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht2/Eigenaar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht2/Eigenaar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht2/Huisdier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht2/Huisdier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/TwitterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/TwitterApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/model/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/model/Tweet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/model/TwitterAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/model/TwitterAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/Account.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/TweetOpstellen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/TweetOpstellen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/TweetOpstellenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/TweetOpstellenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/Vrienden.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/Vrienden.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/VriendenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/VriendenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_10/userinterface/BoekingenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_10/userinterface/BoekingenController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,27 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Repos/V1OOP_V2/src/Practica/Practicum_10&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Repos/V1OOP_V2/src/Practica/Practicum_10",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Practica.Practicum_2B" />
@@ -109,7 +84,7 @@
       <recent name="Practica.Practicum_6B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Practica.Practicum_11.Main">
     <configuration name="HotelApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica.Practicum_9B.HotelApp" />
       <module name="V1OOP_V2" />
@@ -151,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practica.Practicum_8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_8.Main" />
+    <configuration name="Practica.Practicum_11.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_11.Main" />
       <module name="V1OOP_V2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practica.Practicum_8.*" />
+          <option name="PATTERN" value="Practica.Practicum_11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,19 +154,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Practica.Practicum_11.Main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Practica.Practicum_10.HotelApp" />
       <item itemvalue="Application.TwitterApp" />
       <item itemvalue="Application.HotelApp" />
-      <item itemvalue="Application.Practica.Practicum_8.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Practica.Practicum_11.Main" />
         <item itemvalue="Application.Practica.Practicum_10.HotelApp" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TwitterApp" />
         <item itemvalue="Application.HotelApp" />
-        <item itemvalue="Application.Practica.Practicum_8.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +193,7 @@
       <workItem from="1671630126316" duration="3334000" />
       <workItem from="1671636438547" duration="600000" />
       <workItem from="1671785384209" duration="3059000" />
+      <workItem from="1673441454023" duration="15834000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669158135260</created>
@@ -380,7 +356,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671632843586</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="verplaats werkboek opdrachten">
+      <created>1673441872621</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673441872621</updated>
+    </task>
+    <task id="LOCAL-00025" summary="werkboek les 11">
+      <created>1673442031268</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1673442031268</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +412,9 @@
     <MESSAGE value="Copied practicum 9b to practicum 10" />
     <MESSAGE value="static counter in utils class" />
     <MESSAGE value="opdracht 10 gemaakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="opdracht 10 gemaakt" />
+    <MESSAGE value="verplaats werkboek opdrachten" />
+    <MESSAGE value="werkboek les 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="werkboek les 11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
