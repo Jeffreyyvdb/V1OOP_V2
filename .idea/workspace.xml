@@ -1,41 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="static counter in utils class">
+    <list default="true" id="9b7e4795-8865-4300-b928-30266e537e94" name="Changes" comment="opdracht 10 gemaakt">
+      <change afterPath="$PROJECT_DIR$/src/Werkboek/les11/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Werkboek/les11/invoer.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_10/userinterface/Boekingen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_10/userinterface/Boekingen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_10/userinterface/BoekingenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_10/userinterface/BoekingenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_10/userinterface/HotelOverzicht.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_10/userinterface/HotelOverzicht.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_10/userinterface/HotelOverzichtController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_10/userinterface/HotelOverzichtController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les1/opdracht1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les1/opdracht2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les1/opdracht3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les1/opdracht3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht3/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les1/opdracht4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les1/opdracht4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht4/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les1/opdracht5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les1/opdracht5/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht5/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les2/opdracht1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/Piloot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les2/opdracht1/Piloot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/PilootClassDiagram.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les2/opdracht1/PilootClassDiagram.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/PilootClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les2/opdracht1/PilootClassDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les3/opdracht2/BelastingTarieven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les3/opdracht2/BelastingTarieven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les3/opdracht2/TariefFabriek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les3/opdracht2/TariefFabriek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les4/opdracht1/Eigenaar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht1/Eigenaar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les4/opdracht1/Huisdier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht1/Huisdier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les4/opdracht1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les4/opdracht2/Eigenaar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht2/Eigenaar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les4/opdracht2/Huisdier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht2/Huisdier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les4/opdracht2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les9/TwitterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/TwitterApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les9/model/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/model/Tweet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les9/model/TwitterAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/model/TwitterAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/Account.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/TweetOpstellen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/TweetOpstellen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/TweetOpstellenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/TweetOpstellenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/Vrienden.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/Vrienden.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/VriendenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/VriendenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht3/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht4/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les1/opdracht5/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les1/opdracht5/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les2/opdracht1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les2/opdracht1/Piloot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/Piloot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les2/opdracht1/PilootClassDiagram.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/PilootClassDiagram.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les2/opdracht1/PilootClassDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les2/opdracht1/PilootClassDiagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les3/opdracht2/BelastingTarieven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les3/opdracht2/BelastingTarieven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les3/opdracht2/TariefFabriek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les3/opdracht2/TariefFabriek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht1/Eigenaar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht1/Eigenaar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht1/Huisdier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht1/Huisdier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht2/Eigenaar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht2/Eigenaar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht2/Huisdier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht2/Huisdier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les4/opdracht2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les4/opdracht2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/TwitterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/TwitterApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/model/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/model/Tweet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/model/TwitterAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/model/TwitterAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/Account.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/Account.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/TweetOpstellen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/TweetOpstellen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/TweetOpstellenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/TweetOpstellenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/Vrienden.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/Vrienden.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica/Practicum_9B/Werkboek/les9/userinterface/VriendenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werkboek/les9/userinterface/VriendenController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,7 @@
       <recent name="Practica.Practicum_6B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practica.Practicum_10.HotelApp">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HotelApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practica.Practicum_9B.HotelApp" />
       <module name="V1OOP_V2" />
@@ -119,6 +117,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Practica.Practicum_9B.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Werkboek.les11.Main" />
+      <module name="V1OOP_V2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Werkboek.les11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,33 +178,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practica.Practicum_9A.Utils" />
-      <module name="V1OOP_V2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practica.Practicum_9A.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Practica.Practicum_10.HotelApp" />
       <item itemvalue="Application.TwitterApp" />
       <item itemvalue="Application.HotelApp" />
       <item itemvalue="Application.Practica.Practicum_8.Main" />
-      <item itemvalue="Application.Utils" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Practica.Practicum_10.HotelApp" />
         <item itemvalue="Application.TwitterApp" />
         <item itemvalue="Application.HotelApp" />
         <item itemvalue="Application.Practica.Practicum_8.Main" />
-        <item itemvalue="Application.Utils" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +215,9 @@
       <workItem from="1671182006755" duration="55000" />
       <workItem from="1671182739716" duration="4718000" />
       <workItem from="1671217946815" duration="4836000" />
-      <workItem from="1671630126316" duration="2593000" />
+      <workItem from="1671630126316" duration="3334000" />
+      <workItem from="1671636438547" duration="600000" />
+      <workItem from="1671785384209" duration="3059000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669158135260</created>
@@ -373,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671630379979</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="opdracht 10 gemaakt">
+      <created>1671632843586</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671632843586</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +421,8 @@
     <MESSAGE value="Added Werkboek.les9" />
     <MESSAGE value="Copied practicum 9b to practicum 10" />
     <MESSAGE value="static counter in utils class" />
-    <option name="LAST_COMMIT_MESSAGE" value="static counter in utils class" />
+    <MESSAGE value="opdracht 10 gemaakt" />
+    <option name="LAST_COMMIT_MESSAGE" value="opdracht 10 gemaakt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
